@@ -1,0 +1,121 @@
+/* DashboardPage.css */
+
+.dashboard-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue background color */
+  }
+  
+  .admin-login {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff; /* White background color for login section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Set width for the login section */
+  }
+  
+  .admin-login label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .admin-login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .admin-login button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-login button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dashboard {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px; /* Set maximum width for dashboard content */
+  }
+  
+  .profile-form {
+    width: 100%;
+    max-width: 600px; /* Set maximum width for profile form */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff; /* White background color for profile form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-form label,
+  .profile-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .profile-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .profile-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 20px;
+  }
+  
+  .profile-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff; /* White background color for profile cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-card h4 {
+    margin-bottom: 10px;
+  }
+  
+  .profile-card p {
+    margin-bottom: 20px;
+  }
+  
+  .profile-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-card button:hover {
+    background-color: #0056b3;
+  }
+  

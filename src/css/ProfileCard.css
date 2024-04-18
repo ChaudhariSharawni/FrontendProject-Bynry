@@ -1,0 +1,48 @@
+.profile-card {
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Add border radius to create rounded corners */
+    overflow: hidden; /* Hide any content that overflows the rounded corners */
+    margin-bottom: 20px; /* Add space between each profile card */
+    background-color: #fff; /* Set background color for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth effect */
+    margin-right: 20px; /* Add margin to the right of each profile card */
+    height: auto; /* Let the height adjust automatically based on content */
+  }
+  
+  /* Add media query to ensure responsiveness */
+  @media (max-width: 768px) {
+    .profile-card {
+      margin-right: 0; /* Remove margin on smaller screens to prevent overflow */
+      margin-bottom: 20px; /* Add margin-bottom to create space between rows */
+      width: calc(50% - 20px); /* Display two cards per row on smaller screens */
+    }
+  }
+
+
+  .profile-details button {
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px; /* Increase padding for better touch interaction */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+    margin-bottom: 10px; /* Add margin to create space below the button */
+  }
+  
+  .profile-details button:hover {
+    background-color: #0056b3; /* Darken the background color on hover */
+  }
+
+  .profile-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Ensure proper image alignment */
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-details {
+    flex-grow: 1; /* Allow details to expand to fill remaining space */
+  }
+  

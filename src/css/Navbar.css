@@ -1,0 +1,31 @@
+/* Navbar.css */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: silver; /* Set background color to blue */
+  padding: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+/* Target anchor (<a>) elements within the nav */
+nav a {
+  text-decoration: none;
+  color: black; /* Set text color to black */
+  font-weight: bold; /* Make text bold */
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+/* Style anchor on hover */
+nav a:hover {
+  background-color: #555;
+  color: white; /* Change text color to white on hover */
+}
